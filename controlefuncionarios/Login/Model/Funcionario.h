@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Funcionario.h
 //  controlefuncionarios
 //
 //  Created by Isac Morandin on 04/04/15.
 //  Copyright (c) 2015 Curso. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface Funcionario : NSObject
 
 @end
-
