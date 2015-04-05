@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		1898B5B11AD0AC0B009847AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5B01AD0AC0B009847AF /* main.m */; };
 		1898B5B41AD0AC0B009847AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5B31AD0AC0B009847AF /* AppDelegate.m */; };
-		1898B5B71AD0AC0B009847AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5B61AD0AC0B009847AF /* ViewController.m */; };
 		1898B5BA1AD0AC0B009847AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5B81AD0AC0B009847AF /* Main.storyboard */; };
 		1898B5BC1AD0AC0B009847AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5BB1AD0AC0B009847AF /* Images.xcassets */; };
 		1898B5BF1AD0AC0B009847AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5BD1AD0AC0B009847AF /* LaunchScreen.xib */; };
 		1898B5CB1AD0AC0B009847AF /* controlefuncionariosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5CA1AD0AC0B009847AF /* controlefuncionariosTests.m */; };
+		1898B5DA1AD0B3F2009847AF /* fingerprint_black_1600_clr_3379 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5D91AD0B3F2009847AF /* fingerprint_black_1600_clr_3379 copy.png */; };
+		1898B5DC1AD0BC0B009847AF /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5DB1AD0BC0B009847AF /* clock.png */; };
+		1898B5DF1AD0BCDD009847AF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5DD1AD0BCDD009847AF /* background.png */; };
+		1898B5E01AD0BCDD009847AF /* clock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5DE1AD0BCDD009847AF /* clock1.png */; };
+		1898B5E21AD0C11A009847AF /* entrarbotao.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5E11AD0C11A009847AF /* entrarbotao.png */; };
+		1898B5E61AD0C3C8009847AF /* botaoentrar black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5E31AD0C3C8009847AF /* botaoentrar black.png */; };
+		1898B5E71AD0C3C8009847AF /* botaoentrar gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5E41AD0C3C8009847AF /* botaoentrar gray.png */; };
+		1898B5E81AD0C3C8009847AF /* botaoentrar zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5E51AD0C3C8009847AF /* botaoentrar zero.png */; };
+		1898B5EB1AD0C694009847AF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5EA1AD0C694009847AF /* LoginViewController.m */; };
+		1898B5EE1AD0C8C0009847AF /* Funcionario.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5ED1AD0C8C0009847AF /* Funcionario.m */; };
+		1898B5F11AD18446009847AF /* NovoFuncionarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898B5F01AD18446009847AF /* NovoFuncionarioViewController.m */; };
+		1898B5F51AD185E8009847AF /* SALVAR black.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5F21AD185E8009847AF /* SALVAR black.png */; };
+		1898B5F61AD185E8009847AF /* SALVAR GRAY.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5F31AD185E8009847AF /* SALVAR GRAY.png */; };
+		1898B5F71AD185E8009847AF /* SALVAR ZERO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5F41AD185E8009847AF /* SALVAR ZERO.png */; };
+		1898B5FA1AD1881A009847AF /* cancelar red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5F81AD1881A009847AF /* cancelar red.png */; };
+		1898B5FB1AD1881A009847AF /* cancelar zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 1898B5F91AD1881A009847AF /* cancelar zero.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +47,31 @@
 		1898B5B01AD0AC0B009847AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1898B5B21AD0AC0B009847AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1898B5B31AD0AC0B009847AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1898B5B51AD0AC0B009847AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1898B5B61AD0AC0B009847AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1898B5B91AD0AC0B009847AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1898B5BB1AD0AC0B009847AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1898B5BE1AD0AC0B009847AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1898B5C41AD0AC0B009847AF /* controlefuncionariosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = controlefuncionariosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1898B5C91AD0AC0B009847AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1898B5CA1AD0AC0B009847AF /* controlefuncionariosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controlefuncionariosTests.m; sourceTree = "<group>"; };
+		1898B5D91AD0B3F2009847AF /* fingerprint_black_1600_clr_3379 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint_black_1600_clr_3379 copy.png"; sourceTree = "<group>"; };
+		1898B5DB1AD0BC0B009847AF /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		1898B5DD1AD0BCDD009847AF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1898B5DE1AD0BCDD009847AF /* clock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock1.png; sourceTree = "<group>"; };
+		1898B5E11AD0C11A009847AF /* entrarbotao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrarbotao.png; sourceTree = "<group>"; };
+		1898B5E31AD0C3C8009847AF /* botaoentrar black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar black.png"; sourceTree = "<group>"; };
+		1898B5E41AD0C3C8009847AF /* botaoentrar gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar gray.png"; sourceTree = "<group>"; };
+		1898B5E51AD0C3C8009847AF /* botaoentrar zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar zero.png"; sourceTree = "<group>"; };
+		1898B5E91AD0C694009847AF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1898B5EA1AD0C694009847AF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1898B5EC1AD0C8C0009847AF /* Funcionario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funcionario.h; sourceTree = "<group>"; };
+		1898B5ED1AD0C8C0009847AF /* Funcionario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Funcionario.m; sourceTree = "<group>"; };
+		1898B5EF1AD18446009847AF /* NovoFuncionarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovoFuncionarioViewController.h; sourceTree = "<group>"; };
+		1898B5F01AD18446009847AF /* NovoFuncionarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovoFuncionarioViewController.m; sourceTree = "<group>"; };
+		1898B5F21AD185E8009847AF /* SALVAR black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SALVAR black.png"; sourceTree = "<group>"; };
+		1898B5F31AD185E8009847AF /* SALVAR GRAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SALVAR GRAY.png"; sourceTree = "<group>"; };
+		1898B5F41AD185E8009847AF /* SALVAR ZERO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SALVAR ZERO.png"; sourceTree = "<group>"; };
+		1898B5F81AD1881A009847AF /* cancelar red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelar red.png"; sourceTree = "<group>"; };
+		1898B5F91AD1881A009847AF /* cancelar zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelar zero.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +98,7 @@
 				1898B5AD1AD0AC0B009847AF /* controlefuncionarios */,
 				1898B5C71AD0AC0B009847AF /* controlefuncionariosTests */,
 				1898B5AC1AD0AC0B009847AF /* Products */,
+				1898B5D81AD0B049009847AF /* Imagens */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +114,9 @@
 		1898B5AD1AD0AC0B009847AF /* controlefuncionarios */ = {
 			isa = PBXGroup;
 			children = (
+				1898B5D51AD0ADA5009847AF /* Login */,
 				1898B5B21AD0AC0B009847AF /* AppDelegate.h */,
 				1898B5B31AD0AC0B009847AF /* AppDelegate.m */,
-				1898B5B51AD0AC0B009847AF /* ViewController.h */,
-				1898B5B61AD0AC0B009847AF /* ViewController.m */,
 				1898B5B81AD0AC0B009847AF /* Main.storyboard */,
 				1898B5BB1AD0AC0B009847AF /* Images.xcassets */,
 				1898B5BD1AD0AC0B009847AF /* LaunchScreen.xib */,
@@ -117,6 +149,56 @@
 				1898B5C91AD0AC0B009847AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1898B5D51AD0ADA5009847AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1898B5D61AD0ADBC009847AF /* Model */,
+				1898B5D71AD0ADBC009847AF /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1898B5D61AD0ADBC009847AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1898B5EC1AD0C8C0009847AF /* Funcionario.h */,
+				1898B5ED1AD0C8C0009847AF /* Funcionario.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1898B5D71AD0ADBC009847AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1898B5E91AD0C694009847AF /* LoginViewController.h */,
+				1898B5EA1AD0C694009847AF /* LoginViewController.m */,
+				1898B5EF1AD18446009847AF /* NovoFuncionarioViewController.h */,
+				1898B5F01AD18446009847AF /* NovoFuncionarioViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1898B5D81AD0B049009847AF /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				1898B5D91AD0B3F2009847AF /* fingerprint_black_1600_clr_3379 copy.png */,
+				1898B5DB1AD0BC0B009847AF /* clock.png */,
+				1898B5DD1AD0BCDD009847AF /* background.png */,
+				1898B5DE1AD0BCDD009847AF /* clock1.png */,
+				1898B5E11AD0C11A009847AF /* entrarbotao.png */,
+				1898B5E31AD0C3C8009847AF /* botaoentrar black.png */,
+				1898B5E41AD0C3C8009847AF /* botaoentrar gray.png */,
+				1898B5E51AD0C3C8009847AF /* botaoentrar zero.png */,
+				1898B5F21AD185E8009847AF /* SALVAR black.png */,
+				1898B5F31AD185E8009847AF /* SALVAR GRAY.png */,
+				1898B5F41AD185E8009847AF /* SALVAR ZERO.png */,
+				1898B5F81AD1881A009847AF /* cancelar red.png */,
+				1898B5F91AD1881A009847AF /* cancelar zero.png */,
+			);
+			name = Imagens;
+			path = controlefuncionarios/Imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +281,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1898B5E01AD0BCDD009847AF /* clock1.png in Resources */,
+				1898B5E71AD0C3C8009847AF /* botaoentrar gray.png in Resources */,
+				1898B5FA1AD1881A009847AF /* cancelar red.png in Resources */,
+				1898B5F61AD185E8009847AF /* SALVAR GRAY.png in Resources */,
 				1898B5BA1AD0AC0B009847AF /* Main.storyboard in Resources */,
+				1898B5DF1AD0BCDD009847AF /* background.png in Resources */,
+				1898B5E21AD0C11A009847AF /* entrarbotao.png in Resources */,
+				1898B5E61AD0C3C8009847AF /* botaoentrar black.png in Resources */,
+				1898B5F71AD185E8009847AF /* SALVAR ZERO.png in Resources */,
+				1898B5DC1AD0BC0B009847AF /* clock.png in Resources */,
+				1898B5DA1AD0B3F2009847AF /* fingerprint_black_1600_clr_3379 copy.png in Resources */,
 				1898B5BF1AD0AC0B009847AF /* LaunchScreen.xib in Resources */,
+				1898B5F51AD185E8009847AF /* SALVAR black.png in Resources */,
+				1898B5FB1AD1881A009847AF /* cancelar zero.png in Resources */,
+				1898B5E81AD0C3C8009847AF /* botaoentrar zero.png in Resources */,
 				1898B5BC1AD0AC0B009847AF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1898B5B71AD0AC0B009847AF /* ViewController.m in Sources */,
+				1898B5EB1AD0C694009847AF /* LoginViewController.m in Sources */,
+				1898B5F11AD18446009847AF /* NovoFuncionarioViewController.m in Sources */,
 				1898B5B41AD0AC0B009847AF /* AppDelegate.m in Sources */,
+				1898B5EE1AD0C8C0009847AF /* Funcionario.m in Sources */,
 				1898B5B11AD0AC0B009847AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

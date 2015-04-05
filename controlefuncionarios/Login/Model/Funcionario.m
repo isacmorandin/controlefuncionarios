@@ -10,4 +10,5 @@
 
 @implementation Funcionario
 
+
 @end

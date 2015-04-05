@@ -10,13 +10,18 @@
 
 @interface NovoFuncionarioViewController ()
 
+
 @end
 
-@implementation NovoFuncionarioViewController
+@implementation NovoFuncionarioViewController {
+
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //UINavigationItem *item = [[UINavigationItem alloc] initWithTitle:@"Cadastro novo Funcionario"];
+    self.title = @"Cadastro novo Funcionario";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +38,18 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(void) viewWillAppear:(BOOL)animated {
+      [self.navigationController setNavigationBarHidden:NO
+        animated:YES];
+}
+
+
+- (IBAction)salvarButton:(id)sender {
+}
+
+- (IBAction)cancelarButton:(id)sender {
+   
+    
+}
 
 @end
