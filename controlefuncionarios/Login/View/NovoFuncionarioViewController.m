@@ -14,6 +14,8 @@
 @end
 
 @implementation NovoFuncionarioViewController {
+    NSMutableArray *arrayFuncionarios;
+    
 
 }
 
@@ -22,6 +24,8 @@
     // Do any additional setup after loading the view.
     //UINavigationItem *item = [[UINavigationItem alloc] initWithTitle:@"Cadastro novo Funcionario"];
     self.title = @"Cadastro novo Funcionario";
+    arrayFuncionarios = [NSMutableArray new];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,12 +48,26 @@
 }
 
 
-- (IBAction)salvarButton:(id)sender {
-}
-
-- (IBAction)cancelarButton:(id)sender {
-   
+- (IBAction)salvarButton:(id)sender
+{
+    
+    Funcionario *funcionario = [Funcionario new];
+    funcionario.nome = self.nomeField.text;
+    funcionario.sobrenome = self.sobrenomeField.text;
+    funcionario.email = self.emailFIeld.text;
+    funcionario.senha = self.senhaField.text;
+    funcionario.periodo = self.periodoField.text;
+    
+    [arrayFuncionarios addObject:funcionario];
+    
+    [[NSUserDefaults standardUserDefaults] setValue:self.emailFIeld.text forKey:@"email"];
+  
+    [[NSUserDefaults standardUserDefaults] setValue:self.senhaField.text forKey:@"senha"];
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
     
 }
+
+
 
 @end
