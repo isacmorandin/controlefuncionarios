@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Funcionario.h"
 
 @interface NovoFuncionarioViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nomeField;
@@ -14,8 +15,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailFIeld;
 @property (weak, nonatomic) IBOutlet UITextField *senhaField;
 @property (weak, nonatomic) IBOutlet UITextField *periodoField;
+
+
 - (IBAction)salvarButton:(id)sender;
-- (IBAction)cancelarButton:(id)sender;
+
 
 
 
