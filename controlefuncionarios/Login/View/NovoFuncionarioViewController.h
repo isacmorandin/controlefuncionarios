@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Funcionario.h"
+#import "LoginViewController.h"
 
 @interface NovoFuncionarioViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nomeField;

@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,6 +42,7 @@
 -(void) viewWillAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:YES
                                              animated:YES];
+    self.arrayDadosLogin = [NSMutableArray new];
 }
 
 - (void) irParaCadastro {
@@ -46,12 +51,30 @@
     UIStoryboard *sb = [UIStoryboard storyboardWithName:login bundle:nil];
     NovoFuncionarioViewController * novoVC = [sb instantiateViewControllerWithIdentifier:novoFuncionario];
   
-    [self.navigationController pushViewController: novoVC
-                                         animated:YES];
+[self presentViewController:novoVC animated:YES completion:nil];
 }
 
-- (IBAction)enterButton:(id)sender {
+- (IBAction)enterButton:(id)sender
+
+{
+    
+    for (Funcionario *funcionario in self.arrayDadosLogin ) {
+        
+    
+    if ([self.loginField.text isEqualToString:funcionario.email] && [self.senhaField.text isEqualToString:funcionario.senha]) {
+        
+        NSLog(@"Deu certo");
+       
+        
+    } else
+        NSLog(@"Nao deu certo");
+    
+    
+        
+    
+        }
 }
+
 
 - (IBAction)cadastreButton:(id)sender {
     [self irParaCadastro];

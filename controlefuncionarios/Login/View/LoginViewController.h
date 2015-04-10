@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "NovoFuncionarioViewController.h"
 
+
 @interface LoginViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *loginField;
 @property (weak, nonatomic) IBOutlet UITextField *senhaField;
+@property (strong, nonatomic) NSMutableArray *arrayDadosLogin;
 - (IBAction)enterButton:(id)sender;
 - (IBAction)cadastreButton:(id)sender;
 
